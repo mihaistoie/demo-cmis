@@ -1,0 +1,34 @@
+{
+  "name": "demo-cmis",
+  "version": "1.0.0",
+  "description": "Demo API Content Management Interoperability Services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihaistoie/demo-cmis.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mihaistoie/demo-cmis/issues"
+  },
+  "homepage": "https://github.com/mihaistoie/demo-cmis#readme",
+  "dependencies": {
+    "cmis": "^1.0.3",
+    "uuid": "^9.0.0",
+    "node-fetch": "^2.6.1"
+  },
+  "resolutions": {
+    "cmis/cross-fetch": "^3.1.5",
+    "cmis/async": "^3.2.3"
+  },
+  "overrides": {
+    "cmis": {
+      "cross-fetch": "3.1.5",
+      "async": "3.2.3"
+    }
+  }
+}
