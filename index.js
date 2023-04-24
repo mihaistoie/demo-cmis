@@ -8,8 +8,8 @@ globalThis.fetch = nodeFetch;
 
 const demoAlfresco = async () => {
     // création d'une session 
-    const session = new cmis.CmisSession('http://20.199.72.116/alfresco/api/-default-/public/cmis/versions/1.1/browser');
-    session.setCredentials('alfred', 'testcmis@2012');
+    const session = new cmis.CmisSession('http://localhost/alfresco/api/-default-/public/cmis/versions/1.1/browser');
+    session.setCredentials('user', 'password');
     session.setCharset('UTF-8');
     // Charger la liste des répositories
     await session.loadRepositories();
