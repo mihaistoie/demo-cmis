@@ -16,4 +16,8 @@ Dans le répertoire `demo-cmis` exécutez:
 ### Lancez  le démo
     node index.js
 
+### Documentation CmisJS 
+
+ [https://agea.github.io/CmisJS/classes/cmis.cmissession.html](https://agea.github.io/CmisJS/classes/cmis.cmissession.html)
+
 
